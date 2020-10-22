@@ -18,15 +18,15 @@ fetch(url)
             let divPost = createNode("div");
             divPost.className = "post";
             
-       			let divTitle = createNode("h3");
+       	    let divTitle = createNode("h3");
             let divBody = createNode("div");
             let divComments = createNode("button");
             divComments.className = "comment-button"
             let divAuthor = createNode("button");
             divAuthor.className = "author-button"
                
-       			divTitle.innerHTML = `${post.title}`;
-       			divBody.innerHTML = `${post.body}`;
+       	    divTitle.innerHTML = `${post.title}`;
+       	    divBody.innerHTML = `${post.body}`;
             divPost.appendChild(divTitle);
             divPost.appendChild(divBody);
             divPost.appendChild(divComments);
