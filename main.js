@@ -32,7 +32,8 @@ fetch(url)
             divPost.appendChild(divComments);
             divPost.appendChild(divAuthor);
             allPosts.appendChild(divPost);
-
+            
+            //fyller knapparna med text
             divComments.innerHTML = "Read comments";
             divAuthor.innerHTML = "View Author"
 
